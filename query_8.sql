@@ -1,0 +1,1 @@
+SELECT avg(grade) FROM grades WHERE subject_id IN (SELECT id FROM subjects WHERE teacher_id = 2 );
