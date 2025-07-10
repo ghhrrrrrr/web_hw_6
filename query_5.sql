@@ -1,4 +1,4 @@
-SELECT subject_name
+SELECT name
     FROM subjects
     INNER JOIN teachers ON subjects.teacher_id = teachers.id
     WHERE teachers.name = '';
